@@ -1,0 +1,19 @@
+{
+  "name": "testing_of_telnyx",
+  "version": "1.0.0",
+  "description": "testing of telnyx framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "Lev Fetman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress-xpath": "^2.0.0"
+  }
+}
