@@ -9,7 +9,7 @@ describe('testing of telnyx framework', () => {
   it('shall fill the textarea', () => {
     cy.visit('https://telnyx.com/')
     //cy.get('[class*="eUnEoi itIjRb"]').click()
-    cy.get('[class="sc-876fcb71-2 eZNiRr"]').click({force: true}).type('fake@email.com', {force: true}).should('have.value', 'fake@email.com')
+    cy.get('.fywsqS [class="sc-876fcb71-2 eZNiRr"]').click({force: true}).type('fake@email.com', {force: true}).should('have.value', 'fake@email.com')
     cy.get('[class="sc-5d3a275a-1 sc-5d3a275a-3 sc-5d3a275a-4 sc-5d3a275a-12 cSsJix UYAGn eUnEoi bTZeHd"]').click()
   })
 
