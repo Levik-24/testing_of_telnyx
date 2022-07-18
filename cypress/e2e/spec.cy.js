@@ -8,8 +8,8 @@ describe('testing of telnyx framework', () => {
 
   it('shall fill the textarea', () => {
     cy.visit('https://telnyx.com/')
-    //cy.get('[class*="eUnEoi itIjRb"]').click()
-    cy.get('input[type="email"]').click({forceS: true}).type('fake@email.com', {force: true})
+    cy.get('[class="sc-df34c536-3 dkdqrP"]').click({force: true})
+    .get('input[type="email"]').click({forceS: true}).type('fake@email.com', {force: true})
     cy.get('[class="sc-5d3a275a-1 sc-5d3a275a-3 sc-5d3a275a-4 sc-5d3a275a-12 cSsJix UYAGn eUnEoi bTZeHd"]').click({force: true})
   })
 
